@@ -84,6 +84,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .container-social i{
@@ -97,28 +98,36 @@ h1{
     height: 100%;
     background-color: #fff;
     position: absolute;
+    top: 100%;
     border-radius: 30%;
-    display: none;
 }
 
-.container-social:hover + .container-social::before{
-    display: block;
-    animation: social ease-in-out forwards;
-    animation-duration: 6s;
+.container-social:hover:before{
+    animation: social linear forwards;
+    animation-duration: 5s;
 }
+
 
 @keyframes social{
 
     0%{
-        transform: translateY(0) rotate(0) scale(1.6);
+        top: 150%;
+        transform: translateY(0) rotate(0) scale(1.5);
     }
 
     50%{
-        transform: translateY(-150%) rotate(400deg) scale(1.6);
+        /* top: 75%; */
+        transform: translateY(-150%) rotate(400deg) scale(1.5);
     }
 
+    /* 75%{
+        top: 90%;
+        transform: translateY(-150%) rotate(500deg) scale(1.6);
+    } */
+
     100%{
-        transform: translateY(-150%) rotate(400deg) scale(1.6);
+        top: -90%;
+        transform: translateY(-150%) rotate(400deg) scale(1.5);
     }
 
 }
