@@ -113,12 +113,12 @@ h1{
 
     0%{
         top: 150%;
-        transform: translateY(0) rotate(0) scale(1.5);
+        transform: translateY(0) rotate(0) scale(1.4);
     }
 
     50%{
         /* top: 75%; */
-        transform: translateY(-150%) rotate(400deg) scale(1.5);
+        transform: translateY(-150%) rotate(400deg) scale(1.4);
     }
 
     /* 75%{
@@ -128,7 +128,7 @@ h1{
 
     100%{
         top: -90%;
-        transform: translateY(-150%) rotate(400deg) scale(1.5);
+        transform: translateY(-150%) rotate(400deg) scale(1.4);
     }
 
 }

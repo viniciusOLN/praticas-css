@@ -185,5 +185,23 @@ body{
         line-height: 25px;
     }
 
+    a{
+        color: #fff;
+    }
+
+    ul{
+        margin-top: 30px;
+    }
+    
+    li{
+        margin-left: 50px;
+        list-style: disc; 
+    }
+
+    ul > p{
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
 
 /* end main */
