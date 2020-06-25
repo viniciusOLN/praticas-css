@@ -189,16 +189,16 @@ body{
         color: #fff;
     }
 
-    ul{
+    main > ul{
         margin-top: 30px;
     }
     
-    li{
+    main > p > ul > li{
         margin-left: 50px;
         list-style: disc; 
     }
 
-    ul > p{
+    main > ul > p{
         font-size: 25px;
         font-weight: bold;
         margin-bottom: 20px;
