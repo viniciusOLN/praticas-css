@@ -24,34 +24,20 @@ body{
     height: 300px;
     position: relative;
     top: -100px;
-    background-color: green; 
+    /* background-color: green;  */
     overflow: hidden;
 }
 .wave::before{
     content: '';
     position: absolute;
     bottom: 0;
-    background-color: #000;
+    background-color: #2980b9;
     width: 500px;
     height: 200px;
-    animation: rotate 8s linear infinite;
+    border-radius: 40%;
+    animation: rotate 5s linear infinite;
 }
 
-@keyframes rotate{
-
-    0%{
-
-    }
-
-    50%{
-
-    }
-
-    100%{
-        
-    }
-
-}
 
 
 
