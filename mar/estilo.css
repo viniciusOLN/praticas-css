@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    align-items: flex-end;
+}
+
+.ocean{
+    width: 100%;
+    height: auto;
+    background-color: #2980b9;
+}
+
+.wave{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -100px;
+    background-color: green; 
+    overflow: hidden;
+}
+.wave::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    width: 500px;
+    height: 200px;
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate{
+
+    0%{
+
+    }
+
+    50%{
+
+    }
+
+    100%{
+        
+    }
+
+}
+
+
+
