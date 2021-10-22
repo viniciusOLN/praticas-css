@@ -1,0 +1,46 @@
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial;
+    font-weight: lighter;
+}
+.social{
+    width: 18px;
+    height: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #fff;
+    text-decoration: none;
+    color: rgb(0, 50, 216);
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    margin: 10px;
+}
+
+.social:hover{
+    width: 100px;
+    padding: 10px 20px 10px 10px;
+    /* justify-content: center; */
+}
+
+.social::after{
+    width: auto;
+    content: attr(aria-data);
+    /* position: relative; */
+    margin-left: 10px;
+    /* display: inline-block; */
+}
+
+.icon{
+    align-self: center;
+    font-size: 20px;
+}
+
