@@ -19,7 +19,7 @@ body{
     padding: 10px;
     border-radius: 20px;
     overflow: hidden;
-    transition: .5s;
+    transition: width .4s ease-out;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
     margin: 10px;
 }
