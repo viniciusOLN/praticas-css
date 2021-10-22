@@ -1,5 +1,5 @@
 body{
-    background-color: #000;
+    background-color: #34495E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ body{
     border-radius: 20px;
     overflow: hidden;
     transition: width .4s ease-out;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin: 10px;
 }
 
